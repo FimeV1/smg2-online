@@ -29,3 +29,6 @@ tools/emutest/*.json
 tools/emutest/*.log
 tools/emutest/*.txt
 tools/emutest/*.tmp
+
+# Download packs built by tools/make_zips.py
+dist/

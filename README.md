@@ -8,6 +8,13 @@ can play an any% run or a full 242-star file together.
 It is a patch on the real game, loaded through Riivolution: your game file is
 never modified, and you need your own dump or disc.
 
+> **This has not been play-tested yet.** Nobody has played a session with it,
+> let alone a full run. So far it has only been checked by its author's
+> automated tests and short two-game checks on one Windows PC (see
+> [What has been tested](#what-has-been-tested)). The Mac launcher has never
+> run on a Mac and the Wii / Wii U package has never been on a console.
+> Expect bugs, back up any save you care about, and please report what you find.
+
 | Platform | Status |
 |---|---|
 | Dolphin on Windows | tested (two games on one PC, in the real game) |
@@ -189,6 +196,11 @@ Three things are needed that are not in this repository:
 | `server/smg2_server.py` | the server |
 | `server/savemerge.py` | save layout and merge rules |
 | `tools/` | disassembler, archive reader, in-emulator test harness |
+
+## Licence
+
+MIT, see `LICENSE`. Syati and Kamek have their own licences; the game belongs
+to Nintendo and no part of it is included.
 
 ## Credits
 
