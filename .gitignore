@@ -1,0 +1,31 @@
+# The game, and anything extracted from it, never goes in the repository
+game/
+dol/
+
+# Syati (headers, symbols, loader) is its own project: clone it here.
+# Syati/deps/ holds the CodeWarrior compiler, which may not be redistributed.
+Syati/
+
+# Build output (released as zips, not committed)
+client/obj/
+riivolution/CustomCode_*.bin
+riivolution/riivo_*.xml
+wii/SD-card/riivolution/
+wii/SD-card/smg2online/CustomCode_*.bin
+
+# Per-machine state
+riivolution/serverIP.txt
+launcher-paths.txt
+smg2-online.json
+server/server-settings.ini
+server/world-*.bin*
+__pycache__/
+
+# Test harness scratch: Dolphin profiles hold save files and personal settings
+tools/emutest/profiles/
+tools/emutest/dolphin-path.txt
+tools/emutest/*.png
+tools/emutest/*.json
+tools/emutest/*.log
+tools/emutest/*.txt
+tools/emutest/*.tmp

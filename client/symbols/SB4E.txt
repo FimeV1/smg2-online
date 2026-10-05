@@ -1,0 +1,33 @@
+# Compiler runtime helpers missing from Syati's SB4E map (they are entry points into one routine).
+_savefpr_14=0x8062E098
+_savefpr_15=0x8062E09C
+_savefpr_16=0x8062E0A0
+_savefpr_17=0x8062E0A4
+_savefpr_18=0x8062E0A8
+_savefpr_19=0x8062E0AC
+_savefpr_20=0x8062E0B0
+_savefpr_21=0x8062E0B4
+_savefpr_22=0x8062E0B8
+_savefpr_25=0x8062E0C4
+_savefpr_30=0x8062E0D8
+_savefpr_31=0x8062E0DC
+_restfpr_14=0x8062E0E4
+_restfpr_15=0x8062E0E8
+_restfpr_16=0x8062E0EC
+_restfpr_17=0x8062E0F0
+_restfpr_18=0x8062E0F4
+_restfpr_19=0x8062E0F8
+_restfpr_20=0x8062E0FC
+_restfpr_21=0x8062E100
+_restfpr_22=0x8062E104
+_restfpr_25=0x8062E110
+_restfpr_30=0x8062E124
+_restfpr_31=0x8062E128
+_savegpr_14=0x8062E130
+_savegpr_30=0x8062E170
+_savegpr_31=0x8062E174
+_restgpr_14=0x8062E17C
+_restgpr_30=0x8062E1BC
+_restgpr_31=0x8062E1C0
+# Syati declares this with s32, the game takes u32
+changeTrackWeight__12XanimePlayerFlf=0x8006DA80

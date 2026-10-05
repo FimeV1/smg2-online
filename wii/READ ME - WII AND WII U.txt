@@ -1,0 +1,63 @@
+SMG2 ONLINE - Wii / Wii U version
+=================================
+
+STATUS: this build has NOT been tried on a real console yet. The same code
+connects and runs in the Dolphin emulator; you are the first hardware test.
+Please report what happens.
+
+Wii and Wii U use the same files. On a Wii U the mod runs in Wii Mode (vWii).
+The digital (eShop) version of the game on Wii U cannot be used: Riivolution
+needs the game DISC.
+
+You need
+--------
+  * A Wii, or a Wii U in Wii Mode, with the Homebrew Channel installed
+  * Riivolution installed in the Homebrew Channel
+  * A Super Mario Galaxy 2 DISC, USA version (SB4E01)
+  * An SD card (FAT32)
+  * The console connected to the internet (Wii Settings > Internet)
+  * Someone running the SMG2 Online server on a computer (see README.md)
+
+Install
+-------
+  1. Copy the two folders from "SD-card" onto the root of your SD card, so
+     the card has:
+         riivolution\SMG2Online_SB4E.xml
+         smg2online\CustomCode_SB4E.bin
+         smg2online\serverIP.txt
+     (If the card already has a "riivolution" folder, just add the xml to it.)
+
+  2. On a computer, open  smg2online\serverIP.txt  on the SD card with a text
+     editor and replace its contents with the server's address and port:
+         203.0.113.7:5030
+     One line, nothing else. If the server is on a computer in the same house
+     as the console, use that computer's local address (like
+     192.168.0.25:5030).
+
+Play
+----
+  1. Put the SD card and the game disc in the console.
+  2. Homebrew Channel > Riivolution.
+  3. Set "Online multiplayer" (under "SMG2 Online") to Enabled, then Launch.
+  4. On the title screen the logo says ONLINE. It is grey at first and lights
+     up when the server has answered. The host's server window shows
+     "player N joined".
+  5. Load your save. You see other players in the same galaxy and star, and
+     progress is shared.
+  6. Press - (Minus) in a stage for the mod menu.
+
+Without the mod: start the game normally, or set the option to Disabled.
+
+Good to know
+------------
+  * Wii, Wii U and Dolphin players can be on the same server together.
+  * The mod uses your REAL save file on the console. Shared progress from the
+    server is written into it when the game saves. Back up your save first
+    (Wii Menu > Data Management) if you want to keep it as it is, or play on
+    an empty file.
+  * A real Wii is far slower than a PC. A few players in view should be fine;
+    many at once may slow the game down.
+  * To change server later, edit serverIP.txt again.
+
+If it does not work, note exactly what you see (black screen, crash screen
+with text, game runs but ONLINE stays grey) and send it back.
