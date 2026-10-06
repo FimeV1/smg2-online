@@ -8,6 +8,10 @@ can play an any% run or a full 242-star file together.
 It is a patch on the real game, loaded through Riivolution: your game file is
 never modified, and you need your own dump or disc.
 
+**Heavily developed using AI (local and cloud models).** Most of the code and
+documentation here was written by AI under the author's direction. It is not
+fully human-made, so read it and test it with that in mind.
+
 > **This has not been play-tested yet.** Nobody has played a session with it,
 > let alone a full run. So far it has only been checked by its author's
 > automated tests and short two-game checks on one Windows PC (see
