@@ -10,9 +10,11 @@ never modified, and you need your own dump or disc.
 
 **Heavily developed using AI (local and cloud models).** Most of the code and
 documentation here was written by AI under the author's direction. It is not
-fully human-made, so read it and test it with that in mind. The cloud model
-was Anthropic's Claude (Opus 5.5), used through Claude Code; the commits it
-wrote are marked `Co-Authored-By: Claude`.
+fully human-made, so read it and test it with that in mind.
+
+* Cloud: Anthropic's Claude (Opus 5.5), used through Claude Code. The commits
+  it wrote are marked `Co-Authored-By: Claude`.
+* Local: Qwen 3.8 Flash-Next and Qwen 3.8 27B, run on the author's own PC.
 
 > **This has not been play-tested yet.** Nobody has played a session with it,
 > let alone a full run. So far it has only been checked by its author's
